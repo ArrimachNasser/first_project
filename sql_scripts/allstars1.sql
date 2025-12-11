@@ -35,6 +35,10 @@ ALTER TABLE `Restaurant`
 ADD FOREIGN KEY(`cuisine_id`) REFERENCES `Cuisine`(`cuisine_id`)
 ON UPDATE NO ACTION ON DELETE NO ACTION;
 
+<<<<<<< HEAD
 SELECT name, review_rating, review_count
 FROM stars_df
 WHERE name IN ('eleven madison park','per se','chef''s table at brooklyn fare');
+=======
+SELECT * FROM stars_df
+>>>>>>> Pedro
